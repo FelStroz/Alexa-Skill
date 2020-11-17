@@ -1,0 +1,31 @@
+{
+  "name": "alexaFortalezaDigital",
+  "version": "1.0.0",
+  "description": "Sample integration of alexa with the service Fortaleza Digital",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ralphive/b1AlexaSample.git"
+  },
+  "keywords": [
+    "alexa",
+    "echo",
+    "ftdigital",
+    "digital",
+    "assistente",
+    "chatbot"
+  ],
+  "author": "@FelStroz",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk-core": "^2.7.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moments": "0.0.2",
+    "request": "^2.88.0",
+    "mongodb": "^3.2.7"
+  }
+}
